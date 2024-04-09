@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #92CAFF;
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    font-family: 'NanumSquareNeo-Variable';
+    box-sizing: border-box;
+    margin: 60px auto;
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+
+    input {
+        font-family: 'NanumSquareNeo-Variable';
+        width: 100%;
+        height: 130px;
+        box-sizing: border-box;
+        border: 5px solid #92CAFF;
+        border-radius: 10px;
+        outline: none;
+        padding: 20px;
+        font-size: 60px;
+        color: #3b97ec;
+    }
+
+    >div {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+
+        >div {
+            display: flex;
+            justify-content:space-between;
+            width: 100%;
+
+            button {
+                cursor: pointer;
+                width: 24%;
+                height: 130px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                border-radius: 10px;
+                font-size: 55px;
+                border: 0;
+            }
+
+            .button_blue {
+                background-color: #49A1F1;
+                color: #fff;
+            }
+
+            .button_white {
+                background-color: #fff;
+                box-sizing: border-box;
+                border: 5px solid #92CAFF;
+                color: #49A1F1;
+            }
+        }
+    }
+}
